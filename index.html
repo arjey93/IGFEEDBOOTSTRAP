@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/6417c3c059.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--nav bar-->
+    <nav class="navbar bg-light d-flex justify-content-between">
+
+        <a class="navbar-brand text-dark" href="#">
+            <i class="fa-brands fa-instagram fa-xl "></i>
+            Instagram
+        </a>
+        <!-- Button trigger modal -->
+        <div class="d-flex">
+            <button type="button" class="nav-item btn btn-primary bg-success btn-sm" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                create a new post
+            </button>
+
+
+            <!--dropdownstrt-->
+            <ul class="nav-item dropdown border bg-secondary m-0 p-0">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-gear"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">profile</a></li>
+                    <li><a class="dropdown-item" href="#">accessibility</a></li>
+                    <li><a class="dropdown-item" href="#">privacy and data</a>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item text-danger border-top" href="#"> lOG OUT </a></li>
+                </ul>
+            </ul>
+            <!--dropdown finish-->
+        </div>
+
+    </nav>
+    <!--nav bar end-->
+    <!--PILLS-->
+    <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+                type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                <i class="fa-solid fa-table-cells"></i>
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+                type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                <i class="fa-solid fa-square"></i>
+
+            </button>
+        </li>
+    </ul>
+    <!--Content of pills-->
+    <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"
+            tabindex="0">
+            <!--rown and columns-->
+            <div class="container">
+                <div class="row row-cols-3 row-cols- g-3">
+                    <div class="col">
+                        <img class="img-fluid"
+                            src="https://image.shutterstock.com/image-photo/positive-young-beautiful-brunette-woman-600w-2210574165.jpg">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid"
+                            src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid"
+                            src="https://media.istockphoto.com/id/140157656/photo/majestic-red-stag-in-yellowing-autumn-meadow.jpg?s=612x612&w=0&k=20&c=HTZekU4jjsPBvTDAZOkX13Vklb0hPehuuIcL1ZgfXkQ=">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid"
+                            src="https://image.shutterstock.com/image-photo/positive-young-beautiful-brunette-woman-600w-2210574165.jpg">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid"
+                            src="https://image.shutterstock.com/image-photo/positive-young-beautiful-brunette-woman-600w-2210574165.jpg">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid"
+                            src="https://image.shutterstock.com/image-photo/positive-young-beautiful-brunette-woman-600w-2210574165.jpg">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid"
+                            src="https://image.shutterstock.com/image-photo/positive-young-beautiful-brunette-woman-600w-2210574165.jpg">
+                    </div>
+                    <div class="col">
+                        <img class="img-fluid"
+                            src="https://image.shutterstock.com/image-photo/positive-young-beautiful-brunette-woman-600w-2210574165.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--rown and columns END-->
+
+        <!---PAGINA DOS-->
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 24rem;">
+                <div class="card-title1 d-flex justify-content-between p-3">
+                    <h5 class="card-title2">My Crazy cat</h5>
+                    <div>
+                        <span>12/14</span>
+                    </div>
+                </div>
+                <img src="https://placekitten.com/640/360" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p> <strong>634 Likes</strong></p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 24rem;">
+                <div class="card-title1 d-flex justify-content-between">
+                    <h5 class="card-title2">My Crazy cat</h5>
+                    <div>
+                        <span>12/14</span>
+                    </div>
+                </div>
+                <img src="https://placekitten.com/640/360" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p> <strong>634 Likes</strong></p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <div class="card" style="width: 24rem;">
+                <div class="card-title1 d-flex justify-content-between">
+                    <h5 class="card-title2">My Crazy cat</h5>
+                    <div>
+                        <span>12/14</span>
+                    </div>
+                </div>
+                <img src="https://placekitten.com/640/360" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p> <strong>634 Likes</strong></p>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <!--endpills-->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--JAVASCRIPT-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
